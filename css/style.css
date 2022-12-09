@@ -1,0 +1,77 @@
+.newsList {
+  font-family: "Gill Sans", sans-serif;
+  line-height: 1.5;
+}
+
+.newsList,
+.newsListItem {
+  margin: 10px;
+}
+
+.newsListItem {
+  box-shadow: 0 0 5px grey;
+}
+
+.newsTitle,
+.newsListItem {
+  display: flex;
+  flex-direction: column;
+}
+
+.newsTitle {
+  position: relative;
+  z-index: 5;
+  height: 140px;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.newsTitleBg {
+  position: absolute;
+  z-index: -1;
+  background: url("https://cdn.mos.cms.futurecdn.net/yS8AdDkWFHzDhEjycLwkc9-970-80.jpg.webp");
+  background-position: center;
+  background-size: cover;
+  opacity: 0.5;
+  width: 100%;
+  height: 140px;
+  object-fit: fill;
+  display: flex;
+  justify-content: end;
+  align-items: flex-start;
+}
+
+h3 {
+  font-size: 20px;
+  color: grey;
+}
+
+button {
+  border: none;
+  color: grey;
+  border-radius: 50%;
+  font-size: 16px;
+  margin: 5px;
+}
+
+footer {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-bottom: 30px;
+  font-size: 15px;
+  color: grey;
+}
+
+.news {
+  margin: 0 30px 30px 30px;
+}
+
+.bgContent,
+.category {
+  margin: 30px;
+}
